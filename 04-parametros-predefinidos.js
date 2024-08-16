@@ -7,7 +7,7 @@ function calcArea(base, altura, tipo) {
         case `R`: //retangulo
             return base * altura
         case `T`: //Triangulo
-            return base *altura /2
+            return base * altura /2
         case `E`: //elipse
             return (base/2) * (altura/2) * Math.PI
         default: //Forma invalidada/ desconhecida
